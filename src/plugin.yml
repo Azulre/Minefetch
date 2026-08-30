@@ -1,9 +1,12 @@
-name: PowerMacInfo
+name: Minefetch
 version: 1.0
-author: WamWooWam
-main: org.wamwoowam.PowerMacInfo.Main
+author: Azulre
+main: io.azulre.minefetch.Main
 load: STARTUP
 commands:
-  system:
-    description: Provides information on the current system
+  neofetch:
+    description: Provides a parsed output from fastfetch
+    usage: /<command>
+  loadfetch:
+    description: Provides a LagMeter like output with CPU usage and Memory usage graphs.
     usage: /<command>
