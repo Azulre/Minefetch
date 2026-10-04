@@ -33,7 +33,7 @@ javac -cp .:/path/to/your/server.jar io/azulre/minefetch/*.java
 jar cf Minefetch-1.0.jar plugin.yml io/azulre/minefetch/*.class
 ```
 
-Point `-cp` at your own server's jar (or the cached patched one, if you're on Paper — usually sitting in `cache/patched_<version>.jar`), since that's what actually has the Bukkit/Paper API classes needed to compile against. Whatever `javac` version you run this with is the Java version the resulting jar will target.
+Point `-cp` at your own server's jar (or the cached patched one, if you're on Paper the jar is in `cache/patched_<version>.jar`), since that's what actually has the Bukkit/Paper API classes needed to compile against. Whatever `javac` version you run this with is the Java version the resulting jar will target.
 
 ---
 Assisted by ChatGPT Codex
