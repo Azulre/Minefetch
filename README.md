@@ -12,7 +12,7 @@ Code's still not great, I'm not much of a Java person either, but it works.
 
 ## Requirements
 - A Minecraft server running on Linux
-- Java 17+ (tested on Paper for MC 1.21+)
+- Java 11+ (release jar, tested on Paper for MC 1.12.2 Paper and 1.21 Paper)
 - Spigot compatible server (I used PaperMC)
 - fastfetch installed and available on PATH for whichever user runs the server
 
